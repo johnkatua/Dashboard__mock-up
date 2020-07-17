@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  &__logo {
+    padding: 1rem;
+  }
+
+  &__text {
+    margin-right: auto;
+    text-transform: uppercase;
+  }
+
+  &__person {
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    height: 1rem;
+    width: 1rem;
+    margin-left: -2rem;
+  }
+
+  &__user {
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+}

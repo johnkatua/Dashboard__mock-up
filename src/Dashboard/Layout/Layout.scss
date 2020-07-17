@@ -1,0 +1,28 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  min-height: 50rem;
+
+  &__header {
+    height: 5rem;
+    background-color: black;
+  }
+}
+
+.main {
+  background-color: blue;
+  display: flex;
+  min-height: 50rem;
+
+  &__sidebar {
+    background-color: brown;
+    flex: 0 0 15%;
+  
+  }
+
+  &__content {
+    background-color: #efefef;
+    flex: 1;
+  }
+}

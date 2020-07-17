@@ -1,0 +1,12 @@
+import React from 'react';
+import './Order.scss';
+
+function Orders() {
+  return (
+    <div className='orders'>
+      Orders
+    </div>
+  )
+}
+
+export default Orders;
