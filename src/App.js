@@ -10,8 +10,8 @@ function App() {
         <>
         <Switch>
           <Route exact path='/'>
-              <div>
-                <Link to='/dashboard'> Go to dashboard</Link>
+              <div className='App'>
+                <Link to='/dashboard' className='App__link'> Go to dashboard</Link>
               </div>
           </Route>
            <Route path = '/dashboard' component = {Dashboard} />

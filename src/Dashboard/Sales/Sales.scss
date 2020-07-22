@@ -1,4 +1,51 @@
 .actions {
   height: 100%;
-  background-color: cadetblue;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  &__text {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-top: 2px;
+  }
+}
+
+.container {
+  position: absolute;
+  background-color: #fff;
+  width: 90%;
+  min-height: 45rem;
+  margin-top: 3rem;
+  color: #000;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  
+
+  &__image {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  &__text {
+    margin-right: auto;
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+  }
 }

@@ -1,1 +1,17 @@
+.App {
+  font-size: 1.4rem;
+  background-color: #2e2c2c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
+.App__link {
+  text-decoration: none;
+  border: 2px solid #bfbbbb;
+  padding: 1rem 3rem;
+  color: #bfbbbb;
+  text-transform: uppercase;
+}
