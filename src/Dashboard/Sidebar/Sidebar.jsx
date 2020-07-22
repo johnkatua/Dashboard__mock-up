@@ -22,7 +22,7 @@ function Sidebar() {
       </ul>
       <ul className="sidebar__nav">
         <span className="sidebar__logo"><RiDashboardLine/></span>
-        <Link to={`${match.path}/merchants`} className='sidebar__link'>Merchants</Link>
+        <Link to={`${match.path}/reviews`} className='sidebar__link'>Reviews</Link>
       </ul>
       <ul className="sidebar__nav">
         <span className="sidebar__logo"><RiDashboardLine/></span>

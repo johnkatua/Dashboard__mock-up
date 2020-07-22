@@ -4,7 +4,7 @@ import { Switch, Route, useRouteMatch} from 'react-router-dom';
 import Landing from '../Dashboard/Landing/Landing';
 import Orders from '../Dashboard/Orders/Orders';
 import Sales from '../Dashboard/Sales/Sales';
-import Merchant from './Merchants/Merchant';
+import Reviews from './Reviews/Review';
 import Product from './Product/Product';
 
 function Dashboard() {
@@ -16,7 +16,7 @@ function Dashboard() {
           <Route exact path={`${match.path}`} component={Landing} />
           <Route exact path={`${match.path}/orders`} component={Orders} />
           <Route exact path={`${match.path}/sales`} component={Sales} />
-          <Route exact path={`${match.path}/merchants`} component={Merchant} />
+          <Route exact path={`${match.path}/reviews`} component={Reviews} />
           <Route exact path={`${match.path}/products`} component={Product} />
         </Switch>
       </Layout>

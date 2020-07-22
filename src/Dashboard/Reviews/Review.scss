@@ -1,0 +1,68 @@
+.review {
+  height: 100%;
+  background-color: #a3a19d;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+
+
+  &__text {
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+    
+  }
+  
+}
+
+.rating {
+  width: 90%;
+  height: 40rem;
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+
+ 
+  
+  &__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #fff;
+    
+
+    &:not(:last-child) {
+      margin-bottom: 3px;
+    }
+  }
+
+  &__photo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 80px;
+    margin-left: 5px;
+  }
+
+  &__detail {
+    margin-left: 1rem;
+    margin-top: 5px;
+
+    &--star {
+      margin-right: 48rem;
+      
+      
+    }
+
+    &--question {
+      border: 1px solid #000;
+      padding: 0 3px;
+      border-radius: 3px;
+      
+    }
+  }
+
+  
+}
